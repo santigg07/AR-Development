@@ -11,9 +11,12 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/AR Template Scene.unity
     guid: d3fea7e064dab6c47987c173a63a8c82
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Basic_Face_Filter.unity
     guid: 707486050ea85104593d9979335f3b32
+  - enabled: 1
+    path: Assets/Scenes/InteractiveFilter.unity
+    guid: ad66fd93b6919394685df9e038538a0a
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 6ee72d15cf39dd748a13eac57397b9af, type: 2}
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 0465d33c6aee55f44b0237db8b0e0259, type: 2}
