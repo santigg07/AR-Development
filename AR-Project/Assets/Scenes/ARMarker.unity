@@ -131,6 +131,18 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1769154823179702955, guid: 2b162393015851a4a80fef6e12f2b098, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1769154823179702955, guid: 2b162393015851a4a80fef6e12f2b098, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1769154823179702955, guid: 2b162393015851a4a80fef6e12f2b098, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1769154823179702955, guid: 2b162393015851a4a80fef6e12f2b098, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -173,6 +185,10 @@ PrefabInstance:
     - target: {fileID: 5009162044786660859, guid: 2b162393015851a4a80fef6e12f2b098, type: 3}
       propertyPath: m_Name
       value: JohnLemon
+      objectReference: {fileID: 0}
+    - target: {fileID: 5009162044786660859, guid: 2b162393015851a4a80fef6e12f2b098, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -661,6 +677,7 @@ GameObject:
   - component: {fileID: 2512387470422636640}
   - component: {fileID: 2512387470422636641}
   - component: {fileID: 2512387470422636642}
+  - component: {fileID: 2512387470422636670}
   m_Layer: 0
   m_Name: XR Origin (AR Rig)
   m_TagString: Untagged
@@ -668,6 +685,21 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &2512387470422636670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2512387470422636669}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dea56a9eaadd1c439095de4f9a371cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedLibrary: {fileID: 11400000, guid: 30075f66477431a4c90df8e69b0a6cc3, type: 2}
+  m_MaxNumberOfMovingImages: 0
+  m_TrackedImagePrefab: {fileID: 5009162044786660859, guid: 2b162393015851a4a80fef6e12f2b098, type: 3}
 --- !u!4 &2512387470860572925
 Transform:
   m_ObjectHideFlags: 0
